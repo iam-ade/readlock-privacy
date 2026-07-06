@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ReadLock Privacy Policy</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #1a1a2e;
+  }
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.25em; margin-top: 1.8em; }
+  .updated { color: #666; font-size: 0.9em; margin-top: -0.5em; }
+  a { color: #4B3A7A; }
+</style>
+</head>
+<body>
+
+<h1>ReadLock Privacy Policy</h1>
+<p class="updated"><em>Last updated: July 2026</em></p>
+
+<p>ReadLock ("the app," "we," "us") is an Android app that helps you read more by locking distracting apps until you've read a few pages of a book you choose. This policy explains what information ReadLock accesses, what it does with it, and what it does not do.</p>
+
+<h2>The short version</h2>
+<p>ReadLock works entirely on your device. It does not have a server, does not create an account for you, and does not send your reading activity, your book library, or your list of blocked apps anywhere. Everything is stored locally in the app's private storage and stays there until you delete it or uninstall the app.</p>
+
+<h2>What ReadLock accesses, and why</h2>
+
+<p><strong>Accessibility Service.</strong> ReadLock uses Android's Accessibility Service API for one purpose only: to detect the package name of the app currently in the foreground, so it knows when you've opened an app you've chosen to block. The service does not read screen content, text, messages, passwords, or anything else on screen — <code>canRetrieveWindowContent</code> is disabled in the app's configuration, which prevents it from doing so even if it wanted to. No data read by this service is stored beyond the current moment or transmitted anywhere.</p>
+
+<p><strong>Display over other apps.</strong> ReadLock draws the reading-gate screen on top of a blocked app when you open it. This permission is used solely to show that screen; it does not let the app see or interact with the content of other apps.</p>
+
+<p><strong>Installed apps list.</strong> To let you choose which apps to block, ReadLock reads the list of apps installed on your device (names and package identifiers only). This list is used only to populate the in-app picker and is never sent anywhere.</p>
+
+<p><strong>Notifications.</strong> Used only for optional reading reminders you can enable or disable in Settings.</p>
+
+<p><strong>Storage access.</strong> Used only when you choose to import a book file (EPUB or PDF) from your device into the app's library.</p>
+
+<h2>What ReadLock stores, and where</h2>
+<p>The app keeps the following locally on your device, in storage that only ReadLock can access:</p>
+<ul>
+  <li>Books you've imported or added from the free classics library, and your reading progress in each</li>
+  <li>Your reading streak and daily page-count history</li>
+  <li>The list of apps you've chosen to block, and your schedule for when blocking is active</li>
+  <li>Your app settings (reading goal, theme, reminder time)</li>
+</ul>
+<p>None of this is uploaded to a server, shared with third parties, or used for advertising. ReadLock has no analytics or advertising software integrated into it.</p>
+
+<h2>Subscriptions</h2>
+<p>If you choose to subscribe to ReadLock's paid features, the purchase is handled entirely by Google Play's billing system. ReadLock receives confirmation of your subscription status through Google Play; it does not receive or store your payment details (card numbers, billing address, etc.) — Google Play handles that directly, under <a href="https://policies.google.com/privacy">Google's own privacy policy</a>.</p>
+
+<h2>Deleting your data</h2>
+<p>Removing a book, an app from your blocklist, or any other item within ReadLock deletes it immediately from local storage. Uninstalling ReadLock removes all of the app's data from your device.</p>
+
+<h2>Children's privacy</h2>
+<p>ReadLock is not directed at children and does not knowingly collect information from anyone, including children, since it does not collect personal information from any user in the first place.</p>
+
+<h2>Changes to this policy</h2>
+<p>If ReadLock's data practices change — for example, if account sync or cloud backup is introduced in a future version — this policy will be updated to reflect that before the change ships, and the "last updated" date above will change accordingly.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy or ReadLock's data practices can be sent to: <strong>chyrolytics@gmail.com</strong></p>
+
+</body>
+</html>
